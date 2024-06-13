@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Weather app</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="logo">
+        <h1 class="comp">WEATHERIFY</h1>
+        <img id="pho" src="./weather-app-img/weather.png">
+    </div>
+    <div class="card">
+        <div class="search">
+        <input placeholder="Enter city name" type="text" id="inp" spellcheck="false" autocomplete="off">
+        <button id="btn">
+            <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-search" viewBox="0 0 16 16">
+                <path d="M11.742 10.344a6.5 6.5 0 1 0-1.397 1.398h-.001q.044.06.098.115l3.85 3.85a1 1 0 0 0 1.415-1.414l-3.85-3.85a1 1 0 0 0-.115-.1zM12 6.5a5.5 5.5 0 1 1-11 0 5.5 5.5 0 0 1 11 0"/>
+              </svg>
+        </button>
+        </div>
+     <div class="errormsg">
+        <p>Invalid city name</p>
+     </div>
+        <div class="weather">
+          <div class="flex">
+            <img src="./weather-app-img/rain.png" class="weather-icon">
+              <div class="flexchild">
+              <h1 class="temp">22°C</h1>
+              <p id="status">clear sky</p>
+              <h2 class="city">New York</h2>
+              </div>
+          </div>
+        <div class="details">
+            <div class="col" id="col1">
+                <img src="./weather-app-img/humidity.png">
+                <div>
+                    <p class="humidity">50%</p>
+                    <p>Humidity</p>
+                </div>
+            </div>
+            <div class="col" id="col2">
+                <img src="./weather-app-img/windock.png">
+                <div>
+                    <p class="wind">15 km/hr</p>
+                    <p>Wind Speed</p>
+                </div>
+            </div>
+        </div>
+      </div>
+    <img src="./weather-app-img/updateswalkingin.png" class="imgs">
+    </div>
+    <script src="app.js"></script>
+</body>
+</html>
