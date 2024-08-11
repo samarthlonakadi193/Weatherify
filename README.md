@@ -26,9 +26,9 @@
       ├─ style.css
       └─ app.js
 # How to Use
-  Enter the name of a city in the search input.
-  Click on the search button or press Enter.
-  The app will display the current weather data for the entered city.
+  - Enter the name of a city in the search input.
+  - Click on the search button or press Enter.
+  - The app will display the current weather data for the entered city.
 
       
   
